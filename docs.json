@@ -24,7 +24,7 @@
         {
           "anchor": "Home",
           "icon": "house",
-          "href": "/"
+          "href": "https://icare.documentsolution.com"
         },
         {
           "anchor": "Changelog",
@@ -61,7 +61,8 @@
           "analytics/connect-data",
           "analytics/dashboards/create-dashboard",
           "analytics/reports/scheduled-reports"
-        ]
+        ],
+        "hidden": true
       },
       {
         "group": "Integrations",
@@ -72,7 +73,8 @@
           "integrations/authentication",
           "integrations/connectors/crm",
           "integrations/webhooks/configure"
-        ]
+        ],
+        "hidden": true
       }
     ]
   },
