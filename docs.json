@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Product Guide",
-  "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
+  "name": "iCare",
+  "description": "Layanan pelanggan dari Astragraphia",
   "colors": {
     "primary": "#166E3F",
     "light": "#26BD6C",
@@ -39,42 +39,61 @@
       ]
     },
     "directory": "card",
-    "groups": [
+    "tabs": [
       {
-        "group": "Platform",
-        "icon": "layers",
-        "expanded": true,
-        "pages": [
-          "platform/quickstart",
-          "platform/key-concepts",
-          "platform/configuration/settings",
-          "platform/configuration/user-management",
-          "platform/administration/roles-permissions"
+        "tab": "Untitled Tab",
+        "hidden": true,
+        "groups": [
+          {
+            "group": "Platform",
+            "icon": "layers",
+            "expanded": true,
+            "pages": [
+              "platform/quickstart",
+              "platform/key-concepts",
+              "platform/configuration/settings",
+              "platform/configuration/user-management",
+              "platform/administration/roles-permissions"
+            ]
+          },
+          {
+            "group": "Analytics",
+            "icon": "chart-bar",
+            "hidden": true,
+            "expanded": true,
+            "pages": [
+              "analytics/quickstart",
+              "analytics/connect-data",
+              "analytics/dashboards/create-dashboard",
+              "analytics/reports/scheduled-reports"
+            ]
+          },
+          {
+            "group": "Integrations",
+            "icon": "plug",
+            "hidden": true,
+            "expanded": true,
+            "pages": [
+              "integrations/quickstart",
+              "integrations/authentication",
+              "integrations/connectors/crm",
+              "integrations/webhooks/configure"
+            ]
+          }
         ]
       },
       {
-        "group": "Analytics",
-        "icon": "chart-bar",
-        "expanded": true,
+        "tab": "iCare Email",
         "pages": [
-          "analytics/quickstart",
-          "analytics/connect-data",
-          "analytics/dashboards/create-dashboard",
-          "analytics/reports/scheduled-reports"
-        ],
-        "hidden": true
-      },
-      {
-        "group": "Integrations",
-        "icon": "plug",
-        "expanded": true,
-        "pages": [
-          "integrations/quickstart",
-          "integrations/authentication",
-          "integrations/connectors/crm",
-          "integrations/webhooks/configure"
-        ],
-        "hidden": true
+          "apa-itu-i-care-email",
+          {
+            "group": "Template",
+            "pages": [
+              "template-i-care-email",
+              "untitled-page"
+            ]
+          }
+        ]
       }
     ]
   },
