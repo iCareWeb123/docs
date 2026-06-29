@@ -90,9 +90,28 @@
             "group": "Template",
             "pages": [
               "template-i-care-email",
-              "untitled-page"
+              "cara-mendapatkan-template",
+              {
+                "group": "Video Cara Mendapatkan Template iCare Email",
+                "pages": [
+                  "1-kirim-email-kosong-ke-i-care-astragraphia-co-id",
+                  "untitled-page",
+                  {
+                    "group": "Video Cara Mengisi Template iCare Email yang masuk ke Inbox Gmail",
+                    "pages": [
+                      "1-dengan-cara-forward-email",
+                      "2-dengan-cara-reply-email"
+                    ]
+                  }
+                ]
+              }
             ]
-          }
+          },
+          "untitled-page",
+          "beberapa-contoh-kesalahan-pengisian-data",
+          "email-notifikasi-i-care",
+          "flyer-i-care-email",
+          "benefit-i-care-email"
         ]
       }
     ]
