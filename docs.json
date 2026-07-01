@@ -135,7 +135,10 @@
         ]
       },
       {
-        "tab": "iCare Web"
+        "tab": "iCare Web",
+        "pages": [
+          "apa-itu-i-care-web"
+        ]
       }
     ]
   },
