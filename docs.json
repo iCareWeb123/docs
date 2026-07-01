@@ -86,6 +86,7 @@
         "tab": "iCare Email",
         "pages": [
           "apa-itu-i-care-email",
+          "mulai-menggunakan-i-care-email",
           {
             "group": "Template",
             "pages": [
@@ -113,6 +114,9 @@
           "flyer-i-care-email",
           "benefit-i-care-email"
         ]
+      },
+      {
+        "tab": "iCare Web"
       }
     ]
   },
