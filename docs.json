@@ -86,6 +86,7 @@
         "tab": "iCare Email",
         "pages": [
           "apa-itu-i-care-email",
+          "benefit-i-care-email",
           "mulai-menggunakan-i-care-email",
           {
             "group": "Template",
@@ -108,11 +109,29 @@
               }
             ]
           },
-          "mengisi-template-i-care-email",
-          "beberapa-contoh-kesalahan-pengisian-data",
-          "email-notifikasi-i-care",
-          "flyer-i-care-email",
-          "benefit-i-care-email"
+          {
+            "group": "Mengisi Template",
+            "pages": [
+              "mengisi-template-i-care-email",
+              "beberapa-contoh-kesalahan-pengisian-data"
+            ]
+          },
+          {
+            "group": "Mengirimkan email",
+            "pages": []
+          },
+          {
+            "group": "Mendapatkan respon",
+            "pages": [
+              "email-notifikasi-i-care"
+            ]
+          },
+          {
+            "group": "informasi lainnya",
+            "pages": [
+              "flyer-i-care-email"
+            ]
+          }
         ]
       },
       {
@@ -121,21 +140,24 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/images/Untitled.png",
+    "dark": "/images/Untitled.png"
   },
   "navbar": {
-    "links": [],
+    "links": [
+      {
+        "href": "https://astragraphia.co.id",
+        "label": "Astragraphia"
+      },
+      {
+        "href": "https://documentsolution.com",
+        "label": "Document Solution"
+      }
+    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
       "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/yourcompany",
-      "linkedin": "https://linkedin.com/company/yourcompany"
     }
   }
 }
