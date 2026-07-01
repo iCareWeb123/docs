@@ -113,12 +113,15 @@
             "group": "Mengisi Template",
             "pages": [
               "mengisi-template-i-care-email",
-              "beberapa-contoh-kesalahan-pengisian-data"
+              "beberapa-contoh-kesalahan-pengisian-data",
+              "nomor-eq"
             ]
           },
           {
             "group": "Mengirimkan email",
-            "pages": []
+            "pages": [
+              "mengirimkan-icare-email"
+            ]
           },
           {
             "group": "Mendapatkan respon",
