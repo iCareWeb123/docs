@@ -127,7 +127,8 @@
           {
             "group": "Mendapatkan respon",
             "pages": [
-              "email-notifikasi-i-care"
+              "email-notifikasi-i-care",
+              "notifikasi-balasan-email-yang-tidak-di-proses"
             ]
           },
           {
